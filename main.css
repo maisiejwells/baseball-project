@@ -19,7 +19,7 @@ body {
 
 top: 0;
 background: #B3B7FF;
-min-height: 70vh;
+min-height: 95vh;
 padding-top: -600vh;
 margin-top: -00px;
 }
@@ -32,13 +32,14 @@ background-color: #B3B7FF;
 
 .header {
 text-align: center;
-padding-top: 80px;
-
+padding-top: 60vh;
+color: #2B2B2B;
 }
 
 .sub {
 text-align: center;
-margin-top:-90px;
+margin-top:-10vh;
+color: #2B2B2B;
 }
 
 .starwars {
