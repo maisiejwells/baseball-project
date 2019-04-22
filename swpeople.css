@@ -112,6 +112,7 @@
     }
     nav ul {
       text-align: right;
+      margin-left: 75%;
       position: fixed;
       width: 100%;
       background-color: #B3B7FF;
