@@ -16,12 +16,9 @@ body {
 }
 
 .title {
-
-top: 0;
 background: #B3B7FF;
-min-height: 95vh;
-padding-top: -600vh;
-margin-top: -00px;
+min-height: 60vh;
+padding-top: 27vh;
 }
 
 
@@ -30,13 +27,14 @@ margin-top: -00px;
 
 .header {
 text-align: center;
-padding-top: 60vh;
+margin-top: -80px;
 color: #2B2B2B;
+
 }
 
 .sub {
 text-align: center;
-margin-top:-10vh;
+margin-top: -12vh;
 color: #2B2B2B;
 }
 
