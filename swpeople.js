@@ -125,8 +125,10 @@ SwCard.addEventListener( 'click', function() {
 
 const newStarWarsButton = document.querySelector('button')
 
+
 newStarWarsButton.addEventListener('click', function() {
 let newStarName = prompt('Enter the name of your new Star Wars Character')
+// let input = document.querySelector('button').value
 //createStarWarsCard(new Star(newPokeName))
     newCard(newStarName)
 });
@@ -143,11 +145,12 @@ class Star {
 function newCard(name) {
     // let card = document.createElement('div')
     // card.className = 'card'
-
-
-
-
     let cardContainer = document.createElement('div')
+    let label = document.createElement('h2')
+    label.className = "label"
+    label.innerText = name
+    cardContainer.appendChild(label)
+    // cardContainer.innerText = name
     cardContainer.className = "card"
     cardContainer.addEventListener('click', function() {
         console.log('click')
@@ -172,6 +175,7 @@ let imageSaber = document.createElement('img')
 imageSaber.className = "saberpic"
 imageSaber.src = "./images/lightsaber.jpg"
 cardContainer.appendChild(imageSaber)
+
 
 }
 
