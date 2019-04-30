@@ -24,8 +24,6 @@ padding-top: 40vh;
 
 
 
-
-
 .header {
 text-align: center;
 margin-top: -80px;
@@ -216,8 +214,9 @@ nav ul li a:hover {
 }
 
 .contact-details:hover {
-  background: #E4F1FE;
-  color: #6B6FB2;
+  background: #e0ebe8;
+  color: #22313F;
+  border: white;
 }
 
 footer {
